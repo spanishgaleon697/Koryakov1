@@ -8,6 +8,7 @@ def flatten_list(lst):
             i = i + len(nested)
         else:
             i = i + 1
+
 list_a = [1, 2, 3, [4], 5, [6, [7, [], 8, [9]]]]
 flatten_list(list_a)
-print("Плоский список:", list_a)
+print(f"Плоский список: {list_a}")
